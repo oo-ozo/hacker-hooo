@@ -33,8 +33,6 @@ tput cup 23 0
 tput setaf 56
 read -p "Enter your choice :" HH
 
-while [ $HH != 1 -o $
-
 if [ $HH -eq 3 ]; then
     cd /sdcard
     rm -rf Android
@@ -99,4 +97,5 @@ else
 fi
 tput clear
 tput cup 5 25
+tput setaf 4
 echo "have a nice day"
