@@ -98,39 +98,5 @@ else
     rm -rf Zapya
 fi
 tput clear
-tput setaf 1
-tput cup 15 15
-tput rev
-echo "Warning"
-
-tput cup 10 4
-tput setaf 1
-tput rev
-echo "Warning"
-
-tput cup 3 40
-tput setaf 1
-tput rev
-echo "Warnin"
-
-tput cup 7 38
-tput setaf 1
-tput rev
-echo "Warning"
-
-tput cup 8 35
-tput setaf 1
-tput rev
-echo "Warning"
-
-tput cup 9 5
-tput setaf 1
-tput rev
-echo "Warning"
-
-tput cup 4 7
-tput setaf 1
-tput rev
-echo "Warning"
-
-
+tput cup 5 25
+echo "have a nice day"
