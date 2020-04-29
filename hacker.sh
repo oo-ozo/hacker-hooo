@@ -70,7 +70,5 @@ elif [ $HH -eq 4 ]; then
 else
     echo "have a nice day"
 fi
-tput clear
-tput cup 5 25
-tput setaf 4
+echo " "
 echo "have a nice day"
