@@ -46,9 +46,9 @@ if [ $HH -eq 3 ]; then
 elif [ $HH -eq 1 ]; then
     read -p "are you sure?(y=1,n=2)::" KK
     if [ $KK -eq 1 ]; then
-         
+        echo "coming soon on update 2.0"
     else
-        echo "ok"
+        echo "coming soon on update 2.0"
     fi
 elif [ $HH -eq 2 ]; then
     pkg install python2 -y
