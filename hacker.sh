@@ -24,7 +24,7 @@ echo "4.Nmap"
 
 tput cup 16 10
 tput setaf 36
-echo "5.Facebook auto repoter(NEW)"
+echo "5.Facebook profile guard(NEW)"
 
 tput cup 18 10
 tput setaf 43
